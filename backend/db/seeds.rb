@@ -37,6 +37,36 @@ Event.create(
     detail: '島根でハッカソンをやろう',   
     anser_limit: '2018-08-10',
 )
+Event.create(
+    user_id: 1,
+    title: 'Hack Shimane 第2回',
+    top_limit: 20,
+    under_limit: 3,
+    place: '松江市朝日町478番地18松江テルサ別館2階',
+    date: '2019-03-10',
+    detail: '島根でハッカソンをやろう',   
+    anser_limit: '2019-08-10',
+)
+Event.create(
+    user_id: 1,
+    title: 'Hack Shimane 第3回',
+    top_limit: 20,
+    under_limit: 3,
+    place: '松江市朝日町478番地18松江テルサ別館2階',
+    date: '2019-08-10',
+    detail: '島根でハッカソンをやろう',   
+    anser_limit: '2019-08-10',
+)
+Event.create(
+    user_id: 1,
+    title: 'Hack Shimane 第4回',
+    top_limit: 20,
+    under_limit: 3,
+    place: '松江市朝日町478番地18松江テルサ別館2階',
+    date: '2020-03-10',
+    detail: '島根でハッカソンをやろう',   
+    anser_limit: '2020-03-10',
+)
 
 Answer.create(
     expression: 'join',
@@ -52,5 +82,35 @@ Answer.create(
     expression: 'hold',
     user_id: 4,
     event_id: 1,
+)
+Answer.create(
+    expression: 'join',
+    user_id: 5,
+    event_id: 1,
+)
+Answer.create(
+    expression: 'worry',
+    user_id: 6,
+    event_id: 1,
+)
+Answer.create(
+    expression: 'worry',
+    user_id: 7,
+    event_id: 1,
+)
+Answer.create(
+    expression: 'join',
+    user_id: 2,
+    event_id: 2,
+)
+Answer.create(
+    expression: 'join',
+    user_id: 3,
+    event_id: 2,
+)
+Answer.create(
+    expression: 'hold',
+    user_id: 4,
+    event_id: 3,
 )
 
