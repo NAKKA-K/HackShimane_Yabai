@@ -6,7 +6,8 @@ one:
   top_limit: 1
   under_limit: 1
   place: MyString
-  detail: 2018-03-04
+  detail: MyString
+  date: 2018-03-04
   anser_limit: 2018-03-04
 
 two:
@@ -15,5 +16,6 @@ two:
   top_limit: 1
   under_limit: 1
   place: MyString
-  detail: 2018-03-04
+  detail: MyString
+  date: 2018-03-04
   anser_limit: 2018-03-04
