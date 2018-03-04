@@ -1,14 +1,7 @@
 # やばい
 
-# Install
-
-    $ gem install bundler
-    $ bundle install --path vendor/bundler
-
-# Server exec
-
-    $ bundle exec rails s
-
+# Server
+[server](backend/README.md)
 
 # Description
 
