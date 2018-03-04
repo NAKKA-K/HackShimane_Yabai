@@ -1,0 +1,18 @@
+.eventContent {
+    background: lightgray;
+    margin: 10px;
+}
+
+.waitContent {
+    font-style: italic;
+}
+
+.errorContent {
+    color: red;
+    font-weight: bold;
+}
+
+.commentContent {
+    background: gray;
+    margin: 5px;
+}
