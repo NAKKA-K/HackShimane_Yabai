@@ -1,24 +1,11 @@
-# README
+# やばい
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## REST URL & Data
+基本のデータやり取りはREST APIでのやり取りをする。  
 
-* Ruby version
+URLやデータの詳細は[wiki][]参照
 
-* System dependencies
+[wiki]: https://github.com/mct-procon/HackShimane_Yabai/wiki/JSON-Data
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
