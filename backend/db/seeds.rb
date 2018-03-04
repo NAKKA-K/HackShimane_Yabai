@@ -35,7 +35,7 @@ Event.create(
     place: '松江市朝日町478番地18松江テルサ別館2階',
     date: '2018-08-10',
     detail: '島根でハッカソンをやろう',   
-    answer_limit: '2018-08-10',
+    anser_limit: '2018-08-10',
 )
 
 Answer.create(
