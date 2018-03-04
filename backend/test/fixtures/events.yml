@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: MyString
+  title: MyString
+  top_limit: 1
+  under_limit: 1
+  place: MyString
+  detail: MyString
+  date: 2018-03-04
+  anser_limit: 2018-03-04
+
+two:
+  user_id: MyString
+  title: MyString
+  top_limit: 1
+  under_limit: 1
+  place: MyString
+  detail: MyString
+  date: 2018-03-04
+  anser_limit: 2018-03-04
