@@ -1,0 +1,28 @@
+{
+  "name": "yabaiwebfront",
+  "version": "0.0.1",
+  "description": "Hack Shimane!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-css-modules": "^4.6.1",
+    "@types/react-dom": "^16.0.4",
+    "css-loader": "^0.28.10",
+    "react": "^16.2.0",
+    "react-css-modules": "^4.7.1",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.5.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.7.2",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack-cli": "^2.0.10"
+  }
+}
