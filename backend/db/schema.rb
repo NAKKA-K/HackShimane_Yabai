@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180304063310) do
+ActiveRecord::Schema.define(version: 20180304064938) do
 
   create_table "answers", force: :cascade do |t|
     t.string "user_id"
@@ -26,11 +26,11 @@ ActiveRecord::Schema.define(version: 20180304063310) do
     t.integer "top_limit"
     t.integer "under_limit"
     t.string "place"
-    t.date "detail"
+    t.string "detail"
+    t.date "date"
     t.date "anser_limit"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.date "date"
   end
 
   create_table "users", force: :cascade do |t|
