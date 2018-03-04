@@ -1,5 +1,16 @@
 # やばい
 
+# Install
+
+    $ gem install bundler
+    $ bundle install --path vendor/bundler
+
+# Server exec
+
+    $ bundle exec rails s
+
+
+# Description
 
 ## REST URL & Data
 基本のデータやり取りはREST APIでのやり取りをする。  
